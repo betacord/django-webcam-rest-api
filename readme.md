@@ -5,8 +5,7 @@ Kamery podzielone są na kategorie oraz względem lokalizacji (kontynent/kraj).
 Zalogowani użytkownicy mogą dodawać komentarze do kamer. Odczytywać komentarze moga wszyscy użytkownicy.
 
 Zalogowani użytkownicy mogą dodawać nowe kamery, a także komentarze pod nimi. 
-Użytkownicy mogą dodawać także istniejące kamery do listy ulubionych. 
-Zalogowani użytkownicy mogą przeglądać profile innych użytkowników.
+Użytkownicy mogą dodawać także istniejące kamery do listy ulubionych.
 
 Kategorie oraz lista krajów i kontynentów może być zarządzana jedynie przez administratora systemu.
 
