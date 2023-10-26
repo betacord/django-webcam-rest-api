@@ -8,8 +8,8 @@ class UserModelTests(TestCase):
     def test_create_user_with_email_successful(self):
         """Test creating a new user with an email is successful"""
 
-        email: str = 'test@mail.pl'
-        password: str = '2020Pass2020'
+        email = 'test@mail.pl'
+        password = '2020Pass2020'
         user = get_user_model().objects.create_user(
             email=email,
             password=password
