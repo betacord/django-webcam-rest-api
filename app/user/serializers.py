@@ -12,7 +12,10 @@ class UserSerializer(serializers.ModelSerializer):
             'password': {
                 'write_only': True,
                 'min_length': 5,
-            }
+            },
+            'email': {
+                'write_only': True,
+            },
         }
 
     def create(self, validated_data):

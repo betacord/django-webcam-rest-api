@@ -2,9 +2,11 @@ from django.db import models
 
 
 class Continent(models.Model):
-    name = models.CharField(max_length=256)
+    """Continent model"""
+    name = models.CharField(max_length=256, unique=True)
 
 
 class Country(models.Model):
-    name = models.CharField(max_length=256)
+    """Country model"""
+    name = models.CharField(max_length=256, unique=True)
     continent = models.ForeignKey(Continent, null=True, on_delete=models.CASCADE)
